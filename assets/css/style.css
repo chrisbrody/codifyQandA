@@ -303,59 +303,34 @@ h1, h2, h3 {
     text-decoration: underline;
 }
 /*Q & A Styles*/
-
-.nav-tabs > li.active > a, 
-.nav-tabs > li.active > a:hover, 
-.nav-tabs > li.active > a:focus {
-    color: #FFF;
-    cursor: default;
-    background-color: #1ABC9C;
-    border: 1px solid #FFF;
-    border-bottom-color: transparent;
-}
-#questions .tab-pane {
-    padding: 0;
-}
-#questions .nav-tabs {
-    sborder-bottom: none;
-    position: relative;
-    left: -28px;
-}
-.question {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    margin-bottom: 30px;
-    padding: 20px;
-    position: relative;
-}
-.question h3,
-.question p,
-.question .well,
-.question .panel-group {
+p.currentWork {
     margin: 0;
 }
-.question .panel-heading {
+.questionWrap {
+    background-color: #fff;
+}
+.questions .htmlQuestion,
+.questions .cssQuestion {
+    background-color: #1abc9c;
+    padding: 10px 15px;
+    color: #fff;
+    display: inline-block;
+    margin: 10px 0;
+}
+.questionWrap .question {
     color: #1abc9c;
-    background-color: transparent;
     border-bottom: 1px solid #1abc9c;
+    padding: 10px;
 }
-.question a:hover,
-.question a:focus {
+.questionWrap .answer {
+    padding: 10px;
     color: #333;
-    transition: all 0.3s ease-in-out;
 }
-#questions .panel {
-    border: none;
+.questionWrap .answer p {
+    margin: 5px 0;
 }
-#questions .panel-heading {
-    padding: 25px;
-}
-#questions .panel-group .panel + .panel {
-     margin-top: 0; 
-}
-#questions .panel-body {
-    padding: 15px 25px;
+.questionWrap + .questionWrap {
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 1320px) {

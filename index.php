@@ -142,7 +142,7 @@
 
               <div class="tab-content">
                 <!-- OPENING TAB -->
-                <div role="tabpanel" class="tab-pane active" id="welcome">
+                <div role="tabpanel" class="tab-pane" id="welcome">
                   <h1 class="text-center">Codify Academy</h1>
                   <h2 class="text-center">Front End Development Course</h2>
                   <h3 class="text-center">Question and Answer</h3>

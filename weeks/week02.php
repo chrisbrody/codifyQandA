@@ -30,16 +30,12 @@
 
     <div class="clearfix"></div>
 
-    <div class="col-md-12">
-      <div id="questions">
+    <div class="col-md-6">
+      <div class="questions">
         <!-- Nav tabs -->
         <div class="clearfix"></div>
         <ul class="nav nav-tabs" role="tablist">
-        <li><a href=""></a></li>
           <li role="presentation" class="active"><a href="#html5W2" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-html5"></i> HTML</a></li>
-          <li role="presentation"><a href="#css3W2" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-css3"></i> CSS</a></li>
-          <!-- <li role="presentation"><a href="#answered" aria-controls="messages" role="tab" data-toggle="tab">Recently Answered</a></li>
-          <li role="presentation"><a href="#noAnswer" aria-controls="settings" role="tab" data-toggle="tab">No Answer</a></li> -->
         </ul>
         
         <!-- Tab panes -->
@@ -128,37 +124,33 @@
                   </div>
                 </div>
               </article>
-
-              <!-- Week 1 - Question 1 -->
-              <!-- <article class="question">
-                <div class="row">
-                  <div class="col-xs-1">
-                    <img src="assets/img/placeholder.jpg" width="100%" height="50px">
-                  </div>
-                  <div class="col-xs-11">
-                    <h3>My First Question</h3>                      
-                    <br>
-                    <div class="well">
-                      <p>Answer to Question</p>
-                    </div>
-                  </div>
-                </div>
-              </article> -->
-
-              
             </div>
           </div>
-          <div role="tabpanel" class="tab-pane" id="css3W2">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="questions">
+        <!-- Nav tabs -->
+        <div class="clearfix"></div>
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#css3W2" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-css3"></i> CSS</a></li>
+        </ul>
+        
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="css3W2">
             <div class="tab-inner">
 
               <article class="question">
                 <div class="row">
-                  <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+                  <div class="panel-group" id="cssW2" role="tablist" aria-multiselectable="true">
                     <!-- Week 1 - Question 1 -->
                     <div class="panel panel-default">
                       <div class="panel-heading" role="tab" id="headingOne">
                         <h4 class="panel-title">
-                          <a role="button" data-toggle="collapse" data-parent="#accordion2" href="#cssW2Q1" aria-expanded="true" aria-controls="cssW2Q1">
+                          <a role="button" data-toggle="collapse" data-parent="#cssW2" href="#cssW2Q1" aria-expanded="true" aria-controls="cssW2Q1">
                             CSS Question 1
                           </a>
                         </h4>
@@ -173,7 +165,7 @@
                     <div class="panel panel-default">
                       <div class="panel-heading" role="tab" id="headingTwo">
                         <h4 class="panel-title">
-                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#cssW2Q2" aria-expanded="false" aria-controls="cssW2Q2">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#cssW2" href="#cssW2Q2" aria-expanded="false" aria-controls="cssW2Q2">
                             CSS Question 2
                           </a>
                         </h4>
@@ -188,7 +180,7 @@
                     <div class="panel panel-default">
                       <div class="panel-heading" role="tab" id="headingThree">
                         <h4 class="panel-title">
-                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#cssW2Q3" aria-expanded="false" aria-controls="cssW2Q3">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#cssW2" href="#cssW2Q3" aria-expanded="false" aria-controls="cssW2Q3">
                             CSS Question 3
                           </a>
                         </h4>
@@ -203,7 +195,7 @@
                     <div class="panel panel-default">
                       <div class="panel-heading" role="tab" id="headingFour">
                         <h4 class="panel-title">
-                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#cssW2Q4" aria-expanded="false" aria-controls="cssW2Q4">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#cssW2" href="#cssW2Q4" aria-expanded="false" aria-controls="cssW2Q4">
                             CSS Question 4
                           </a>
                         </h4>
@@ -218,7 +210,7 @@
                     <div class="panel panel-default">
                       <div class="panel-heading" role="tab" id="headingFive">
                         <h4 class="panel-title">
-                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2" href="#cssW2Q5" aria-expanded="false" aria-controls="cssW2Q5">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#cssW2" href="#cssW2Q5" aria-expanded="false" aria-controls="cssW2Q5">
                             CSS Question 5
                           </a>
                         </h4>
