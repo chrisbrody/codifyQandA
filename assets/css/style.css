@@ -1,0 +1,365 @@
+/*
+Template Name: DASHGUM FREE - Bootstrap 3.2 Admin Theme
+Template Version: 1.0
+Author: Carlos Alvarez
+Website: http://blacktie.co
+Premium: http://www.gridgum.com
+*/
+
+/* Import fonts */
+@import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
+
+/* BASIC THEME CONFIGURATION */
+body {
+    color: #797979;
+    background: #f2f2f2;
+    font-family: 'Ruda', sans-serif;
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size:16px;
+}
+
+ul li {
+      list-style-type: circle;
+}
+a {
+    color: #1abc9c;
+    text-decoration: none;
+    outline: none;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+    color:#12846D;
+}
+::selection {
+
+    background: #1abc9c;
+    color: #fff;
+}
+::-moz-selection {
+    background: #1abc9c;
+    color: #fff;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #797979;
+}
+
+
+
+
+
+/*sidebar navigation*/
+
+#sidebar {
+    width: 210px;
+    height: 100%;
+    position: fixed;
+    background: #424a5d;
+    -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+#sidebar > h5 {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 75px;
+}
+#sidebar > h5 > a {
+    color: #f2f2f2;
+
+}
+
+#sidebar ul li {
+    position: relative;
+}
+
+.nav-collapse.collapse {
+    display: inline;
+}
+
+ul.sidebar-menu {
+    margin: -2px 0 0;
+    padding: 0;
+    
+}
+
+
+
+ul.sidebar-menu li{
+    /*line-height: 20px !important;*/
+    margin-bottom: 5px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+ul.sidebar-menu li a span{
+    display: inline-block;
+}
+
+ul.sidebar-menu li a{
+    color: #aeb2b7;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0 10px 10px;
+    font-size: 12px;
+    outline: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
+    background: #1abc9c;
+    color: #fff;
+    display: block;
+
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+ul.sidebar-menu li a i {
+    font-size: 15px;
+    padding-right: 6px;
+}
+
+ul.sidebar-menu li a:hover i, ul.sidebar-menu li a:focus i {
+    color: #fff;
+}
+
+ul.sidebar-menu li a.active i {
+    color: #fff;
+}
+
+/* MAIN CONTENT CONFIGURATION */
+#main-content {
+    margin-left: 210px;
+    -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+.header, .footer {
+    min-height: 60px;
+    padding: 0 15px;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1002;
+}
+
+.black-bg {
+    background: #1abc9c;
+    border-bottom: 1px solid #1abc9c;
+}
+
+.wrapper {
+    display: inline-block;
+    margin-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    width: 100%;
+}
+
+a.logo {
+    font-size: 20px;
+    color: #ffffff;
+    float: left;
+    margin-top: 17px;
+    text-transform: uppercase;
+}
+
+a.logo b {
+    font-weight: 900;
+}
+
+a.logo:hover, a.logo:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+/*--sidebar toggle---*/
+
+.sidebar-toggle-box {
+    float: left;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
+.sidebar-toggle-box .fa-bars {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+}
+
+
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+
+
+
+/* MAIN CHART CONFIGURATION */
+.main-chart {
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*footer*/
+.site-footer {
+    background: #1abc9c;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 25px;
+    margin-bottom: -5px;
+}
+
+/*Top Link*/
+.go-top {
+    margin-right: 1%;
+    float: right;
+    background: rgba(255,255,255,.5);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.go-top i {
+    color: #2A3542;
+}
+
+
+/*week boxes*/
+.weekBox {
+    background-color: white;
+    padding:5px;
+    margin: 15px 0;
+    min-height: 215px;
+}
+.weekBox > h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+.weekBox > h3 > a{
+    color: #555;
+}
+.weekBox ul {
+    padding-left: 20px;
+}
+.tab-pane {
+    padding: 0 10px;
+}
+.classTime ol > li {
+    padding-top:65px;
+}
+h1, h2, h3 {
+    color:#555555;
+    font-weight: 700;
+}
+.title p span {
+    
+}
+.prev, .next {
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+#introduceThese {
+    color: #555555;
+    text-decoration: underline;
+    font-size: 24px;
+    position: relative;
+    top: 30px;
+    right: 2%;
+}
+.linkage {
+    font-size: 24px;
+    text-decoration: underline;
+}
+/*Q & A Styles*/
+
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus {
+    color: #FFF;
+    cursor: default;
+    background-color: #1ABC9C;
+    border: 1px solid #FFF;
+    border-bottom-color: transparent;
+}
+#questions .tab-pane {
+    padding: 0;
+}
+#questions .nav-tabs {
+    sborder-bottom: none;
+    position: relative;
+    left: -28px;
+}
+.question {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    padding: 20px;
+    position: relative;
+}
+.question h3,
+.question p,
+.question .well,
+.question .panel-group {
+    margin: 0;
+}
+.question .panel-heading {
+    color: #1abc9c;
+    background-color: transparent;
+    border-bottom: 1px solid #1abc9c;
+}
+.question a:hover,
+.question a:focus {
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
+#questions .panel {
+    border: none;
+}
+#questions .panel-heading {
+    padding: 25px;
+}
+#questions .panel-group .panel + .panel {
+     margin-top: 0; 
+}
+#questions .panel-body {
+    padding: 15px 25px;
+}
+
+@media screen and (max-width: 1320px) {
+    .weekBox {
+        min-height: 250px;
+    }
+}
