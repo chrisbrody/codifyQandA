@@ -24,7 +24,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body ng-app="codifyQandA">
 
       <!-- **********************************************************************************************************************************************************
       TOP BAR CONTENT & NOTIFICATIONS
@@ -50,9 +50,6 @@
           <a href="#welcome" data-toggle="tab">Front End Q &amp; A</a>
         </h5>
         <ul class="sidebar-menu">
-
-      	  
-      	  	
           <li class="mt">
             <a href="weeks/#week1" data-toggle="tab">
               <i class="fa fa-question-circle"></i>
@@ -142,10 +139,10 @@
 
               <div class="tab-content">
                 <!-- OPENING TAB -->
-                <div role="tabpanel" class="tab-pane" id="welcome">
+                <div role="tabpanel" class="tab-pane active" id="welcome">
                   <h1 class="text-center">Codify Academy</h1>
                   <h2 class="text-center">Front End Development Course</h2>
-                  <h3 class="text-center">Frequently Asked Programming Questions</h3>
+                  <h3 class="text-center">Teachers Manual</h3>
                   <div class="courseOverview">
                     <div class="col-md-4">
                       <!-- week 1 -->
@@ -168,8 +165,7 @@
                     </div>
                     <div class="col-md-4">
                       <!-- week 2 -->
-                      <div class="weekBox
-                      ">
+                      <div class="weekBox">
                         <h3><a href="weeks/#week2" data-toggle="tab">Week 2</a></h3>   
                         <h4>Project:</h4>                     
                         <ul>                          
@@ -271,7 +267,7 @@
                         <h4>Learning:</h4>
                         <ul>                          
                           <li>
-                            Learn jQuery - codecademy - bonus resource Aquent Gym
+                             <a href="http://www.codecademy.com/en/tracks/jquery" target="_blank">Codecademy - Learn jQuery</a> - bonus resource <a href="http://gymnasium.aquent.com/course/102" target="_blank">Aquent Gym</a>
                           </li>
                         </ul>
                       </div>
@@ -289,7 +285,7 @@
                         <h4>Learning:</h4>
                         <ul>                          
                           <li>
-                            Tutsplus - learn jQuery in 30 days
+                            <a href="http://code.tutsplus.com/courses/30-days-to-learn-jquery" target="_blank">Tutsplus - learn jQuery in 30 days</a>
                           </li>
                         </ul>
                       </div>
@@ -307,7 +303,7 @@
                         <h4>Learning:</h4>
                         <ul>                          
                           <li>
-                            Codecademy - JavaScript sections 1 - 4
+                            <a href="http://www.codecademy.com/en/tracks/javascript" target="_blank">Codecademy - JavaScript sections 1 - 4</a>
                           </li>
                         </ul>
                       </div>
@@ -325,7 +321,7 @@
                         <h4>Learning:</h4>
                         <ul>                          
                           <li>
-                            Codecademy - JavaScript sections 5 - 8
+                            <a href="http://www.codecademy.com/en/tracks/javascript" target="_blank">Codecademy - JavaScript sections 5 - 8</a>
                           </li>
                         </ul>
                       </div>
@@ -405,12 +401,13 @@
                 <div class="clearfix"></div>
                 <!-- WEEK 12 -16 POWER CODING SESSION -->
                 <?php include('weeks/week12.php') ?>
+                <div class="clearfix"></div>
               </div>
 
               <!--footer start-->
               <footer class="site-footer">
                 <div class="text-center">
-                  <?php echo date("Y") ?> - Codify Academy
+                  &copy;<?php echo date("Y") ?> - Codify Academy
                   <a href="#" class="go-top">
                     <i class="fa fa-angle-up"></i>
                   </a>
@@ -428,6 +425,22 @@
     <!-- js placed at the end of the document so the pages load faster -->
     <script src="assets/js/jquery-1.8.3.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="assets/js/angular-sanitize.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!-- controllers -->
+    <script src="assets/js/controllers/week01Ctrl.js"></script>
+    <script src="assets/js/controllers/week02Ctrl.js"></script>
+    <script src="assets/js/controllers/week03Ctrl.js"></script>
+    <script src="assets/js/controllers/week04Ctrl.js"></script>
+    <script src="assets/js/controllers/week05Ctrl.js"></script>
+    <script src="assets/js/controllers/week06Ctrl.js"></script>
+    <script src="assets/js/controllers/week07Ctrl.js"></script>
+    <script src="assets/js/controllers/week08Ctrl.js"></script>
+    <script src="assets/js/controllers/week09Ctrl.js"></script>
+    <script src="assets/js/controllers/week10Ctrl.js"></script>
+    <script src="assets/js/controllers/week11Ctrl.js"></script>
+    <script src="assets/js/controllers/week12Ctrl.js"></script>
 
     <!-- nice scroll -->
     <script src="assets/js/jquery.nicescroll.js"></script>
